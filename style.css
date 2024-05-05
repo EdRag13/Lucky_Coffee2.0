@@ -13,7 +13,7 @@ li, a {
 
 header{
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
   padding: 10px 10%;
   border-radius: 15px;
@@ -25,7 +25,6 @@ header{
 }
 .logo{
   cursor: pointer;
-  margin-right: auto;
   padding: 0;
   height: 15%;
   width: 15%;
