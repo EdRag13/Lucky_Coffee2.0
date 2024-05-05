@@ -15,5 +15,30 @@ header{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 30px 10%;
+  padding: 10px 10%;
+  border-radius: 15px;
+  background-color: #80411e;
+  margin-top: 5px;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+}
+.logo{
+  cursor: pointer;
+  padding: 0;
+  height: 15%;
+  width: 15%;
+}
+.nav__links{
+  list-style: none;
+}
+.nav__links li {
+  display: inline-block;
+  padding: 0px 30px;
+}
+.nav__links li a {
+  transition: all 0.3s ease 0s;
+}
+.nav__links li a:hover{
+  color: #e4bc84;
 }
