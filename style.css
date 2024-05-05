@@ -4,15 +4,11 @@
   padding: 0;
 }
 
-#nav__links{
-  list-style-type: none;
-}
-
 li, a {
-    font-weight: 500;
-    font-size: 16px;
-    color: #e4bc84;
-    text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  color: #e4bc84;
+  text-decoration: none;
 }
 
 header{
