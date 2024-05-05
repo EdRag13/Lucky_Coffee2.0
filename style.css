@@ -1,8 +1,23 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 #nav__links{
   list-style-type: none;
 }
 
-li {
-    display: inline;
-    margin-right: 20px;
-  }
+li, a {
+    font-weight: 500;
+    font-size: 16px;
+    color: #e4bc84;
+    text-decoration: none;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+}
