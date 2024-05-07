@@ -54,3 +54,21 @@ body{
   background-attachment: fixed;  
   background-size: cover;
 }
+.tar_flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: calc(100vh - 85px );
+}
+.tartalom{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.also_léc{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: auto;
+}
