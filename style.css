@@ -66,10 +66,12 @@ body{
   justify-content: center;
   align-items: center;
 }
+
 .also_léc{
   display: flex;
-  justify-content: left;
+  justify-content: center;
   align-items: center;
-  margin-bottom: auto;
-  float: left;
+  position: absolute;
+  left: 10px;
+  bottom: 30px;
 }
