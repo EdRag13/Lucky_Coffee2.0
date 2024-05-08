@@ -1,55 +1,52 @@
 *{
-  box-sizing: border-box;
-  margin: 0;
   padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+.poetsen-one-regular{
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+nav{
+  background: #80411e;
+  height: 80px;
+  width: 100%;
+  color: #e4bc84;
+  position: fixed;
+  top: 0px;
+}
+nav ul{
+  float: right;
+  margin-right: 20px;
+}
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+nav ul li a{
+  color: #e4bc84;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+a.active,a:hover{
+  color: #ebcda4;
+  transition: .5s;
 }
 
-li, a, button{
-  font-weight: 500;
-  font-size: 16px;
-  color: #e4bc84;
-  text-decoration: none;
-}
-header{
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  padding: 10px 10%;
-  background-color: #80411e;
-  position: fixed;
-  top: 0;
-  z-index: 1000;
-}
+
 .logo {
+  margin-left: 100px;
+  margin-top: 10px;
   cursor: pointer;
   width: 65px;
   height: 65px;
   margin-right: auto;
-}
-.nav__links{
-  list-style: none;
-}
-.nav__links li{
-  display: inline-block;
-  padding: 0px 20px;
-}
-.nav__links li a{
-  transition: all 0.3s ease 0s;
-}
-.nav__links li a:hover{
-  color: #e3c293;
-}
-button{
-  padding: 9px 25px;
-  background-color: #e4bc84;
-  border: none;
-  border-radius: 50px;
-  cursor: pointer;
-  transition: all 0.3s ease 0s;
-  color: black;
-}
-button:hover {
-  background-color: #e4bc84;
 }
 body{
   background-image: url(coffee/café.png);
@@ -77,8 +74,16 @@ body{
 .also_léc{
   display: flex;
   justify-content: center;
-  align-items: center;
   position: absolute;
   left: 10px;
   bottom: 30px;
+  left: 40%;
+}
+.also_léc1{
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  left: 10px;
+  bottom: 90px;
+  left: 40%;
 }
