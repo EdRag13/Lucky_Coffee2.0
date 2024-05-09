@@ -2,3 +2,29 @@
     width: 500px;
     transform: scale(0.5);
 }
+div{
+    text-align: center;
+}
+.téma1{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 2em;
+}
+
+.tar_flex2_1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: auto;
+}
+#tar_flex2_1{
+  padding: 10px;
+  margin-top: 5px;
+  background-color: #80411e;
+}

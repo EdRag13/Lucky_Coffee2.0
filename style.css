@@ -127,6 +127,9 @@ body{
   height: fit-content;
   position: absolute;
   bottom: 0px;
+  left: 0;
+  right: 0;
+  width: auto;
 }
 #tar_flex2{
   padding: 10px;
@@ -144,7 +147,7 @@ body{
   position: absolute;
   top: 0px;
 }
-#tar_flex{
+#tar_flex0{
   padding-top: 30px;
   margin-top: 80px;
 }
