@@ -65,7 +65,7 @@ a.active,a:hover{
     height: 100vh;
     background: #2c3e50;
     top: 80px;
-    left: -100%;
+    left: 100%;
     text-align: center;
     transition: all .5s;
   }
@@ -113,13 +113,29 @@ body{
   height: calc(100vh - 85px );
 }
 #tar_flex{
+  padding-top: 30px;
+  margin-top: 80px;
+}
+.tar_flex2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: fit-content;
+  position: absolute;
+  bottom: 0px;
+}
+#tar_flex2{
   padding: 10px;
-  margin-top: 50px;
+  margin-top: 5px;
+  background-color: #80411e;
 }
 .tartalom{
   display: flex;
   justify-content: center;
   align-items: center;
+  position: absolute;
+  bottom: 105px;
 }
 
 .also_léc{
@@ -137,4 +153,15 @@ body{
   left: 10px;
   bottom: 90px;
   left: 40%;
+  background-color: #80411e;
+}
+.f_tar{
+  background-color: wheat;
+  box-sizing: border-box;
+}
+.also_tartalom{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #80411e;
 }
