@@ -1,0 +1,68 @@
+.tar_flex{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    height: calc(100vh - 85px );
+}
+/*#tar_flex{
+    padding-top: 30px;
+    margin-top: 80px;
+}
+*/
+  
+.tar_flex2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    width: auto;
+}
+#tar_flex2{
+    padding: 10px;
+    margin-top: 5px;
+    background-color: #80411e;
+}
+
+.tar_flex0{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+    position: absolute;
+    top: 0px;
+}
+#tar_flex0{
+    padding-top: 30px;
+    margin-top: 80px;
+}
+  
+  
+.tartalom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 105px;
+}
+
+.f_tar{
+    background-color: wheat;
+    box-sizing: border-box;
+}
+.cím{
+    position: absolute;
+    bottom: 280px;
+    left: 0;
+    margin-left: 10px;
+    font-size: 2em;
+}
+.web_tar{
+    margin: 10px;
+}

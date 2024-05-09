@@ -11,6 +11,8 @@ div{
     flex-wrap: wrap;
     align-content: flex-start;
     gap: 2em;
+    background-color: #d2c1b0;
+    border: 20px solid #d2c1b0;
 }
 
 .tar_flex2_2{
@@ -22,9 +24,14 @@ div{
     left: 0;
     right: 0;
     width: auto;
-  }
+}
   #tar_flex2_2{
     padding: 10px;
-    margin-top: 5px;
     background-color: #80411e;
-  }
+}
+
+.box_t{
+    border: 1px solid #e4bc84;
+    background-color: #e4bc84;
+    border-radius: 10%;
+}
