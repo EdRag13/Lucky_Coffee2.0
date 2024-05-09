@@ -17,6 +17,7 @@ nav{
   color: #e4bc84;
   position: fixed;
   top: 0px;
+  z-index: 1000;
 }
 nav ul{
   float: right;
@@ -116,6 +117,8 @@ body{
   padding-top: 30px;
   margin-top: 80px;
 }
+
+
 .tar_flex2{
   display: flex;
   justify-content: center;
@@ -130,6 +133,23 @@ body{
   margin-top: 5px;
   background-color: #80411e;
 }
+
+
+.tar_flex0{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: fit-content;
+  position: absolute;
+  top: 0px;
+}
+#tar_flex{
+  padding-top: 30px;
+  margin-top: 80px;
+}
+
+
 .tartalom{
   display: flex;
   justify-content: center;
