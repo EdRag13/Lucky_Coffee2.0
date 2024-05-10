@@ -34,15 +34,13 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: fit-content;
     position: absolute;
-    top: 0px;
 }
-#tar_flex0{
+/*#tar_flex0{
     padding-top: 30px;
     margin-top: 80px;
 }
-  
+*/
   
 .tartalom{
     display: flex;
