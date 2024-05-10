@@ -47,7 +47,7 @@
     justify-content: center;
     align-items: center;
     position: absolute;
-    bottom: 105px;
+    bottom: -40px;
 }
 
 .f_tar{
@@ -56,7 +56,7 @@
 }
 .cím{
     position: absolute;
-    bottom: 280px;
+    bottom: 70%;
     left: 0;
     margin-left: 10px;
     font-size: 2em;
